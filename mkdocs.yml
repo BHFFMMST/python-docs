@@ -93,6 +93,9 @@ nav:
       - Okruženje: content/basics/setup.md
       - Lekcija 1: content/basics/lesson00_basics/index.md
       - Lekcija 2: content/basics/lesson01_name/index.md
+      - If-else naredba: content/basics/If-else naredba/index.md
+      - Petlje: content/basics/Petlje/index.md
+      - Nizovi: content/basics/Nizovi/index.md
       - Resursi: content/basics/resources.md
   - Napredni koncepti:
       - Uvod: content/intermediate/index.md
