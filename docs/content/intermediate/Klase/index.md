@@ -1,4 +1,4 @@
-##Objekti
+## Objekti
 
 >Osnovni koncept OOP-a je objedinjavanje podataka(članova) i funkcija(metoda) koje manipuliraju podacima 
 u jednu cijelinu koja se naziva **objekat**.

@@ -125,9 +125,9 @@ Output: 1
 ```
 </pre>
 
-##Ugnježdene petlje
+## Ugnježdene petlje
 
->**Ugnježdene petlje prestavljaju petlju unutar petlje.
+>**Ugnježdene petlje** prestavljaju petlju unutar petlje.
 
 Kada se petlja nalazi unutar druge petlje, za svaku iteraciju vanjske petlje unutarnja petlja mora proći kroz sve svoje iteracije.
 

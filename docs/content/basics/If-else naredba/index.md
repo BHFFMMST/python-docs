@@ -1,10 +1,10 @@
+# Grananje
 
-#Grananje
 Programski kod se u ranijim poglavljima izvršavao naredbu po naredbu(linearno programiranje), te se naredba koja koja se izvršava ne zavisi striktono od ranijeg izvršenog koda. Mnogi problemi 
 zahtijevaju dva ili više ishoda, u zavisnosti od određenih uslova. Grananje predstavlja promjenu toka izvršavanja programa i  omogućavanje specifičnijeg reagovanja programa u zavisnosti  od ispunjenje uslova
 
 ## If
->**If ** nardeba je osnovna kontrolna struktura u programiranju koja omogućava izvršavanje određenih 
+>**If** nardeba je osnovna kontrolna struktura u programiranju koja omogućava izvršavanje određenih 
 blokova koda samo ako se određeni uslov ili izraz ima tačnu(istinitu) vrijednost.
 
 Koristi se za upravljnje tokom izvršavanja programa na osnovu trenutnih uslova. U suštini, **if** 
