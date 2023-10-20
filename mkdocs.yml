@@ -91,15 +91,22 @@ nav:
   - Osnovni koncepti:
       - Uvod: content/basics/index.md
       - Okruženje: content/basics/setup.md
-      - Lekcija 1: content/basics/lesson00_basics/index.md
-      - Lekcija 2: content/basics/lesson01_name/index.md
+      - Varijable: content/basics/varijable/index.md
+      - Operatori: content/basics/operatori/index.md
+      - Unos i ispis: content/basics/unos_ispis/index.md
       - If-else naredba: content/basics/If-else naredba/index.md
       - Petlje: content/basics/Petlje/index.md
       - Nizovi: content/basics/Nizovi/index.md
+      - Funkcije: content/basics/funkcije/index.md
+      - Ponavljanje: content/basics/ponavljanje/index.md
       - Resursi: content/basics/resources.md
   - Napredni koncepti:
       - Uvod: content/intermediate/index.md
       - Okruženje: content/intermediate/setup.md
-      - Lekcija 1: content/intermediate/lesson00_review/index.md
-      - Lekcija 2: content/intermediate/lesson01_name/index.md
+      - Klase: content/intermediate/Klase/index.md
+      - Geteri, seteri i konstruktori: content/intermediate/Konstruktori/index.md
+      - Funkcije klasa: content/intermediate/Funkcije klasa/index.md
+      - Enkapsulacija i apstrakcija: content/intermediate/enkapsulacija_apstrakcija/index.md
+      - Nasljeđivanje i polimorfizam: content/intermediate/nasljedjivanje_polimorfizam/index.md
+      - Ponavljanje: content/intermediate/ponavljanje/index.md
       - Resursi: content/intermediate/resources.md
