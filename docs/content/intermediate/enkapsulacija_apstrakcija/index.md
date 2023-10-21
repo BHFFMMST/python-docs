@@ -1,1 +1,0 @@
-# Enkapsulacija i apstrakcija

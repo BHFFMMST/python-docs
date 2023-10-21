@@ -106,7 +106,8 @@ nav:
       - Klase: content/intermediate/Klase/index.md
       - Geteri, seteri i konstruktori: content/intermediate/Konstruktori/index.md
       - Funkcije klasa: content/intermediate/Funkcije klasa/index.md
-      - Enkapsulacija i apstrakcija: content/intermediate/enkapsulacija_apstrakcija/index.md
-      - Nasljeđivanje i polimorfizam: content/intermediate/nasljedjivanje_polimorfizam/index.md
+      - Enkapsulacija: content/intermediate/enkapsulacija/index.md
+      - Nasljeđivanje: content/intermediate/nasljedjivanje/index.md
+      - Apstraktne klase: content/intermediate/apstraktne_klase/index.md
       - Ponavljanje: content/intermediate/ponavljanje/index.md
       - Resursi: content/intermediate/resources.md
