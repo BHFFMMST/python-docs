@@ -11,8 +11,14 @@ Koristi se za upravljnje tokom izvršavanja programa na osnovu trenutnih uslova.
 naredba omogućava programu da donosi odluke i izvršava određene djilove koda samo ako su ispunjeni određeni uslovi. 
 
 Dijagram toka if naredbe izgleada ovako:
-
-![Image title](gran2.jpg){ width="400" }
+```mermaid
+graph TD
+    Start[Start] --> Condition{Uslov}
+    Condition -- Uslov ispunjen --> Action1[Naredbe]
+    Condition -- Ulsov nije ispunjen -->End
+    Action1 --> End[End]
+   
+```
 
 If naredba se piše ovako:
 ```python
@@ -33,7 +39,15 @@ if  10 > 5:
 
 >**Else** se koristi za izvršavanje bloka koda kada uslov nije tačan.
 
-![Image title](gran6.jpg){ width="400" }
+```mermaid
+graph TD
+    Start[Start] --> Condition{Uslov}
+    Condition -- Uslov ispunjen --> Action1[Naredbe1]
+    Condition -- Ulsov nije ispunjen -->Action2[Naredba2]
+    Action1 --> End[End]
+    Action2 --> End[End]
+   
+```
 
 ```python
 if uslov:
@@ -60,7 +74,17 @@ morali bi smo ugnijezditi više if-else uvijeta. To bi učinilo kod vrlo nečitl
 
 >**Elif** (kratko za **else if**) pravi kod kraćim, čitljivijim i lakšim za razumijeti. 
 
-![Image title](gran11.jpg){ width="400" }
+```mermaid
+graph TD
+    Start[Start] --> Condition1{Uslov1}
+    Condition1 -- Uslov1 ispunjen --> Action1[Naredbe1]
+    Condition1 -- Uslov1 nije  ispunjen --> Condition2{Uslov2}
+    Condition2 -- Uslov2 ispunjen --> Action2[Naredbe2]
+    Condition2 -- Uslov2 nije ispunjen --> Action3[Naredbe3]
+    Action1 --> End[End]
+    Action2 --> End
+    Action3 --> End
+```
 
 ```python
 if uslov1:

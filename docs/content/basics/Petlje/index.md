@@ -5,8 +5,15 @@ određenog dijela koda (bloka koda).
 
 Kao i [if-else naredbe](/content/basics/If-else%20naredba), petlje sadrže uslov. Ukoliko je uslov ispunjen blok koda se ponavlja određeni broj puta, sve dok se uslov postane netačan.
 
-![Petlja](slika.png){ width="400"}
 
+```mermaid
+graph TD
+    Start[Start] --> Condition{Uslov}
+    Condition -- Tačno --> Action1[Naredba]
+    Condition -- Netačno --> End[End]
+    Action1 --> Condition{Uslov}
+    
+```
 Postoje  dvije vrste petlji:
 
 >   - petlje kontrolisane brojačem (**for** petlje)
