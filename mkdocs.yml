@@ -7,6 +7,12 @@ repo_name: BHFFMMST/python-docs
 #
 # Theme Settings
 #
+
+
+plugins:
+  - search
+  - mermaid2
+
 theme:
   name: material
   logo: assets/images/bhff-favicon.png
@@ -33,6 +39,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+  
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -74,6 +81,12 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
   - attr_list
